@@ -17,7 +17,7 @@ const App = () => {
     // You can use the provided example response or an actual API call
     const fetchData = async () => {
       try {
-        const response = await fetch('https://botbattlr-sylvia-chelimo.onrender.com/bots'); // replace with your actual API endpoint
+        const response = await fetch('http://localhost:3000/bots'); // replace with your actual API endpoint
         const data = await response.json();
         setBots(data);
       } catch (error) {
