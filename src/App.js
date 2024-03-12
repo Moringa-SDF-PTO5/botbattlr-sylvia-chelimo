@@ -17,7 +17,7 @@ const App = () => {
     // You can use the provided example response or an actual API call
     const fetchData = async () => {
       try {
-        const response = await fetch('http://localhost:3000/bots'); // replace with your actual API endpoint
+        const response = await fetch('https://botbattlr-sylvia-chelimo.onrender.com/bots'); // replace with your actual API endpoint
         const data = await response.json();
         setBots(data);
       } catch (error) {
@@ -44,7 +44,7 @@ const App = () => {
   const deleteBot = async (bot) => {
     // Simulate DELETE /bots/:id
     try {
-      await fetch(`http://localhost:3001/bots ${bot.id}`, { method: 'DELETE' }); // replace with your actual API endpoint
+      await fetch(`https://botbattlr-sylvia-chelimo.onrender.com/bots ${bot.id}`, { method: 'DELETE' }); // replace with your actual API endpoint
       // Update state or refetch bots if needed
     } catch (error) {
       console.error('Error deleting bot:', error);
