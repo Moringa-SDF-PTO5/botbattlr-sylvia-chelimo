@@ -1,6 +1,6 @@
 # React Immersive Code Challenge: Bot Battlr
 Welcome to Bot Battlr, the one and only spot in the known universe where you can custom build your own Bot Army! This is our app:
-![](https://camo.githubusercontent.com/00155c19ef35d18b483565b27f8c2410562b9f653bda741c2f9260c2ed1d8c1c/68747470733a2f2f637572726963756c756d2d636f6e74656e742e73332e616d617a6f6e6177732e636f6d2f70686173652d322f70686173652d322d686f6f6b732d636f64652d6368616c6c656e67652d626f742d626174746c722f636865636b706f696e745f64656d6f2e676966)
+![](https://botbattlr-sylvia-chelimo.netlify.app/)
 Here's the scenario: a galactic overlord has hired you, a galactic web developer, to develop a galactic web app that will allow them to browse through a list of robots, view a robot's details, and, enlist a bot into their army.
 # Instructions
 
